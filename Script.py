@@ -34,7 +34,7 @@ class script(object):
 Monster Malayalam Movie ❌
 Monster 2022 ✔️
  Monster ✔️</i>"""
-    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/freakersfilterbot>ᴍᴏᴠɪᴇs ʙᴏᴛ</a>\n
+    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/freakersfilterbot>ʀᴏʟᴇx</a>\n
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://www.instagram.com/naughty__nonsense/>ᴍᴀɴᴀғ</a>\n
 🎞 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ : <a href=https://t.me/freakersfilmy>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 🎙 ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/freakersmovie>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
@@ -47,7 +47,8 @@ Monster 2022 ✔️
 📡 ʜᴏsᴛᴇᴅ ᴏɴ : <a href=https://railway.app/>ʀᴀɪʟᴡᴀʏ</a>\n
 ⚙ sᴏᴜʀᴄᴇ  : <a href=https://github.com/>ɢɪᴛʜᴜʙ</a>\n
 ⚡️ ᴠᴇʀsɪᴏɴ : <a href=https://t.me/naughty_nonsense>ᴠ4.0</a>\n
-📨 ɪɴsᴛᴀɢʀᴀᴍ : <a href=https://www.instagram.com/naughty__nonsense/>ɪɴsᴛᴀ ɪᴅ</a></i></b>\n
+📨 ғᴏʟʟᴏᴡ ᴍᴇ ᴏɴ : <a href=https://www.instagram.com/naughty__nonsense/>ɪɴsᴛᴀɢʀᴀᴍ</a></i></b>\n
+
 """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
