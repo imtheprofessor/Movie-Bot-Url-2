@@ -19,7 +19,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "1781582444:AAFwYhaplG_1YUk_rjrlJN-3XeHxniy
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/32627d1bb8303070694fd.jpg https://telegra.ph/file/d2be74e19ff39ad0e04ed.jpg https://telegra.ph/file/5b14b5a77e0e70fa389d5.jpg https://telegra.ph/file/33850db4bfb95fbd764e7.jpg https://telegra.ph/file/57480f01e2aa20e1b882d.jpg https://telegra.ph/file/94f3540420e200de4649a.jpg https://telegra.ph/file/a1d8b86ff4586df043325.jpg https://telegra.ph/file/39c8400e47efec3718459.jpg https://telegra.ph/file/9f5a7d04c67972b41e994.jpg https://telegra.ph/file/78501ede09af36c54b3ed.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/e866ba79cecd54f7f304d.jpg https://telegra.ph/file/27e31254f0b8b2491222d.jpg https://telegra.ph/file/a241dbccb8acb8a9bb127.jpg https://telegra.ph/file/5ddc32d19996d524d4696.jpg')).split()
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '739667270').split()]
@@ -38,7 +38,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001555083458'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'freakersmoviel')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'SixFlix')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
@@ -72,7 +72,7 @@ URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'atglinks.com')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '2948014f60b7700cbc5bca4a6b241b31f1ccd39c')
 
      # Auto Delete For Group Message (Self Delete) #
-SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 3600))
+SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 84000))
 SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
