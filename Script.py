@@ -15,7 +15,7 @@ class script(object):
     START_TXT = """<b><i>ʜᴇʟʟᴏ..👋</b></i> {}
        <b><i>ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ sᴇᴀʀᴄʜ ʏᴏᴜʀ ᴍᴏsᴛ ғᴀᴠᴏʀɪᴛᴇ ᴍᴏᴠɪᴇs.
 ᴊᴜsᴛ ᴛʏᴘᴇ ʏᴏᴜʀ ᴍᴏᴠɪᴇs ɴᴀᴍᴇ & ʏᴇᴀʀ ᴀɴᴅ sᴇɴᴅ ᴛᴏ ᴍᴇ ᴏʀ ɢʀᴏᴜᴘ...\n
-ʏᴏᴜ ᴍᴜsᴛ ʙᴇ ᴀ ᴍᴇᴍʙᴇʀ ᴏғ <a href=https://t.me/freakersmovie><b><i>ғʀᴇᴀᴋᴇʀs ᴍᴏᴠɪᴇs</i></b></a> ᴛᴏ ᴜsᴇ ᴍᴇ..\n
+ʏᴏᴜ ᴍᴜsᴛ ʙᴇ ᴀ ᴍᴇᴍʙᴇʀ ᴏғ <a href=https://t.me/+ERyRrnI5CPEyYmFl><b><i>ғʀᴇᴀᴋᴇʀs ᴍᴏᴠɪᴇs</i></b></a> ᴛᴏ ᴜsᴇ ᴍᴇ..\n
 ғᴏʀ ᴍᴏʀᴇ ᴅᴇᴛᴀɪʟs ᴄʟɪᴄᴋ</i></b> <u>𝑯𝑬𝑳𝑷</u> <i><b>ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ.. 👇\n
 ɪғ ʏᴏᴜ ɴᴇᴇᴅ ᴀɴʏ ᴏᴛʜᴇʀ /🤖ʙᴏᴛs /📂ᴄʜᴀɴɴᴇʟ /🎙️ɢʀᴏᴜᴘs/ ᴄʟɪᴄᴋ ᴛʜᴇ</i></b> <u>𝑨𝑩𝑶𝑼𝑻</u> <i><b>ʙᴜᴛᴛᴏɴ..!</i></b>\n
 <i><b>ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href=https://t.me/naughty_nonsense>ɴᴀᴜɢʜᴛʏ ɴᴏɴsᴇɴsᴇ</i></b></a>
@@ -37,9 +37,9 @@ Monster 2022 ✔️
     ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/freakersfilterbot>ʀᴏʟᴇx</a>\n
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://www.instagram.com/naughty__nonsense/>ᴍᴀɴᴀғ</a>\n
 🎞 ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ : <a href=https://t.me/freakersfilmy>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
-🎙 ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/freakersmovie>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+🎙 ᴍᴏᴠɪᴇ ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/+ERyRrnI5CPEyYmFl>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 📺 sᴇʀɪᴇs ɢʀᴏᴜᴘ : <a href=https://t.me/FF_Series_Only>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
-🎙 sᴇʀɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/freakers_series>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+🎙 sᴇʀɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href=https://t.me/+4NvHgqi9_FRhNjY1>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 📺 sᴇʀɪᴇs ʙᴏᴛ  : <a href=https://t.me/ffseriesbot>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 🔞 18+ ʙᴏᴛ : <a href=https://t.me/A4_Adultsbot>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
 ✍🏼 ʟᴀɴɢᴜᴀɢᴇ : <a href=https://t.me/freakersfilmy>ᴘʏᴛʜᴏɴ 3</a>\n
