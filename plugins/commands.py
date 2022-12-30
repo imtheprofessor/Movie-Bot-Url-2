@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('𝙐𝙥𝙙𝙖𝙩𝙚 𝙘𝙝𝙖𝙣𝙣𝙚𝙡🍃', url='https://t.me/freakersmovie')
+                InlineKeyboardButton('𝙐𝙥𝙙𝙖𝙩𝙚 𝙘𝙝𝙖𝙣𝙣𝙚𝙡🍃', url='https://t.me/+ERyRrnI5CPEyYmFl')
             ],
             [
                 InlineKeyboardButton('𝙎𝙚𝙧𝙞𝙚𝙨 𝙊𝙣𝙡𝙮🍃', url=f"https://t.me/FF_Series_Only"),
@@ -47,8 +47,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('𝑨𝒅𝒅 𝑴𝒆 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑🎙️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('𝑺𝒆𝒓𝒊𝒆𝒔 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/freakers_series'),
-            InlineKeyboardButton('𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/freakersmovie')
+            InlineKeyboardButton('𝑺𝒆𝒓𝒊𝒆𝒔 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/+4NvHgqi9_FRhNjY1'),
+            InlineKeyboardButton('𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/+ERyRrnI5CPEyYmFl')
             ],[
             InlineKeyboardButton('𝑯𝒆𝒍𝒑 🤗', callback_data='help'),
             InlineKeyboardButton('𝑨𝒃𝒐𝒖𝒕 🫠', callback_data='about')
@@ -93,8 +93,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('𝑨𝒅𝒅 𝑴𝒆 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑🎙️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('𝑺𝒆𝒓𝒊𝒆𝒔 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/freakers_series'),
-            InlineKeyboardButton('𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/freakersmovie')
+            InlineKeyboardButton('𝑺𝒆𝒓𝒊𝒆𝒔 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/+4NvHgqi9_FRhNjY1'),
+            InlineKeyboardButton('𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/+ERyRrnI5CPEyYmFl')
             ],[
             InlineKeyboardButton('𝑯𝒆𝒍𝒑 🤗', callback_data='help'),
             InlineKeyboardButton('𝑨𝒃𝒐𝒖𝒕 🫠', callback_data='about')
