@@ -435,8 +435,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('𝑨𝒅𝒅 𝑴𝒆 𝒀𝒐𝒖𝒓 𝑮𝒓𝒐𝒖𝒑🎙️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('𝑺𝒆𝒓𝒊𝒆𝒔 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/freakers_series'),
-            InlineKeyboardButton('𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/freakersmovie')
+            InlineKeyboardButton('𝑺𝒆𝒓𝒊𝒆𝒔 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/+4NvHgqi9_FRhNjY1'),
+            InlineKeyboardButton('𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔🍃', url='https://t.me/+ERyRrnI5CPEyYmFl')
         ], [
             InlineKeyboardButton('𝑯𝒆𝒍𝒑 🤗', callback_data='help'),
             InlineKeyboardButton('𝑨𝒃𝒐𝒖𝒕 🫠', callback_data='about')
@@ -739,7 +739,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>🎬 Title:</b> {search}\n</b>\n<b><i><a href='https://t.me/freakersmovie'>ғʀᴇᴀᴋᴇʀs ᴍᴏᴠɪᴇs</a></i></b>\n\n ⚠️ <s><i><b>ᴛʜɪs ғɪʟᴛᴇʀ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ 1 ʜᴏᴜʀs</i></b></s>"
+        cap = f"<b>🎬 Title:</b> {search}\n</b>\n<b><i><a href='https://t.me/+ERyRrnI5CPEyYmFl'>ғʀᴇᴀᴋᴇʀs ᴍᴏᴠɪᴇs</a></i></b>\n\n ⚠️ <s><i><b>ᴛʜɪs ғɪʟᴛᴇʀ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ 1 ʜᴏᴜʀs</i></b></s>"
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
