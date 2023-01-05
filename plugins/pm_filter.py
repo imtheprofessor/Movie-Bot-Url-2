@@ -109,7 +109,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="🤔𝙃𝙤𝙬 𝙏𝙤 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙❓", url='https://t.me/Freakers_Filmy/308')
+            InlineKeyboardButton(text="🤔𝑯𝑶𝑾 𝑻𝑶 𝑫𝑶𝑾𝑵𝑳𝑶𝑨𝑫❓", url='https://t.me/Freakers_Filmy/308')
         ]
     )
 
@@ -121,20 +121,20 @@ async def next_page(bot, query):
         off_set = offset - 10
     if n_offset == 0:
         btn.append(
-            [InlineKeyboardButton("👈🏽𝘽𝙖𝙘𝙠", callback_data=f"next_{req}_{key}_{off_set}"),
-             InlineKeyboardButton(f"📂 𝙋𝙖𝙜𝙚𝙨 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}",
+            [InlineKeyboardButton("👈🏻 𝑩𝑨𝑪𝑲", callback_data=f"next_{req}_{key}_{off_set}"),
+             InlineKeyboardButton(f"📂 𝑷𝑨𝑮𝑬𝑺 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}",
                                   callback_data="pages")]
         )
     elif off_set is None:
         btn.append(
             [InlineKeyboardButton(f"📂 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
-             InlineKeyboardButton("𝙉𝙚𝙭𝙩👉🏽", callback_data=f"next_{req}_{key}_{n_offset}")])
+             InlineKeyboardButton("𝑵𝑬𝑿𝑻 👉🏻", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
-                InlineKeyboardButton("👈🏽𝘽𝙖𝙘𝙠", callback_data=f"next_{req}_{key}_{off_set}"),
+                InlineKeyboardButton("👈🏻 𝑩𝑨𝑪𝑲", callback_data=f"next_{req}_{key}_{off_set}"),
                 InlineKeyboardButton(f"📂 {math.ceil(int(offset) / 10) + 1} / {math.ceil(total / 10)}", callback_data="pages"),
-                InlineKeyboardButton("𝙉𝙚𝙭𝙩👉🏽", callback_data=f"next_{req}_{key}_{n_offset}")
+                InlineKeyboardButton("𝑵𝑬𝑿𝑻 👉🏻", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
     try:
@@ -688,7 +688,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="🤔𝙃𝙤𝙬 𝙏𝙤 𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙❓", url='https://t.me/Freakers_Filmy/308')
+            InlineKeyboardButton(text="🤔𝑯𝑶𝑾 𝑻𝑶 𝑫𝑶𝑾𝑵𝑳𝑶𝑨𝑫❓", url='https://t.me/Freakers_Filmy/308')
         ]
     )
 
@@ -698,7 +698,7 @@ async def auto_filter(client, msg, spoll=False):
         req = message.from_user.id if message.from_user else 0
         btn.append(
             [InlineKeyboardButton(text=f"📂 1/{math.ceil(int(total_results) / 10)}", callback_data="pages"),
-             InlineKeyboardButton(text="𝙉𝙚𝙭𝙩👉🏽", callback_data=f"next_{req}_{key}_{offset}")]
+             InlineKeyboardButton(text="𝑵𝑬𝑿𝑻 👉🏻", callback_data=f"next_{req}_{key}_{offset}")]
         )
     else:
         btn.append(
@@ -746,7 +746,7 @@ async def auto_filter(client, msg, spoll=False):
                                       reply_markup=InlineKeyboardMarkup(btn))
             if SELF_DELETE:
                 await asyncio.sleep(SELF_DELETE_SECONDS)
-                await hehe.delete()
+                await hehe.edit(f"<b><i>ᴛɪᴛʟᴇ:</i></b> {search} \nSearch Result Closed. 🗑️ \nTry Again..🫠\n<b>copyright ©️</b>")
 
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
@@ -754,18 +754,18 @@ async def auto_filter(client, msg, spoll=False):
             hmm = await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
             if SELF_DELETE:
                 await asyncio.sleep(SELF_DELETE_SECONDS)
-                await hmm.delete()
+                await hmm.edit(f"<b><i>ᴛɪᴛʟᴇ:</i></b> {search} \nSearch Result Closed. 🗑️ \nTry Again..🫠\n<b>copyright ©️</b>")
         except Exception as e:
             logger.exception(e)
             fek = await message.reply_photo(photo=random.choice(PICS), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
             if SELF_DELETE:
                 await asyncio.sleep(SELF_DELETE_SECONDS)
-                await fek.delete()
+                await fek.edit(f"<b><i>ᴛɪᴛʟᴇ:</i></b> {search} \nSearch Result Closed. 🗑️ \nTry Again..🫠\n<b>copyright ©️</b>")
     else:
         fuk = await message.reply_photo(photo=random.choice(PICS), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
         if SELF_DELETE:
             await asyncio.sleep(SELF_DELETE_SECONDS)
-            await fuk.delete()
+            await fuk.edit(f"<b><i>ᴛɪᴛʟᴇ:</i></b> {search} \nSearch Result Closed. 🗑️ \nTry Again..🫠\n<b>copyright ©️</b>")
 
 async def advantage_spell_chok(msg):
     query = re.sub(
