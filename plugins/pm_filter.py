@@ -109,7 +109,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="🤔𝑯𝑶𝑾 𝑻𝑶 𝑫𝑶𝑾𝑵𝑳𝑶𝑨𝑫❓", url='https://t.me/Freakers_Filmy/308')
+            InlineKeyboardButton(text="🤔𝑯𝑶𝑾 𝑻𝑶 𝑫𝑶𝑾𝑵𝑳𝑶𝑨𝑫❓", url='https://t.me/SixFlix/363')
         ]
     )
 
@@ -688,7 +688,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="🤔𝑯𝑶𝑾 𝑻𝑶 𝑫𝑶𝑾𝑵𝑳𝑶𝑨𝑫❓", url='https://t.me/Freakers_Filmy/308')
+            InlineKeyboardButton(text="🤔𝑯𝑶𝑾 𝑻𝑶 𝑫𝑶𝑾𝑵𝑳𝑶𝑨𝑫❓", url='https://t.me/SixFlix/363')
         ]
     )
 
